@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ONLINE Examination</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Online Examination">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Priyal Chauhan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/login.css">
+    <script defer src="/script/registration.js"></script>
+    <script defer src="/script/login.js"></script>
+</head>
+
+<body>
+<h1> Online Examination </h1>
+<div class="logreg">
+<div class="login" id="login">
+<h1> Student login </h1>
+
+<form id="loginForm">
+    <label for="loginID">Username</label><br>
+    <input type="text" id="loginId" name="loginID" required><br>
+    <label for="PasswordID">Password</label><br>
+    <input type="password" id="passwordId" name="PasswordID" required><br><br>
+    <button id="button2" class="button" style="left: 30%; position:relative;" >Login</button>
+     
+</form>
+    </div>
+    
+
+<div class="login"> <!-- different section -->
+    <h1>Student Registration</h1>
+
+    <form id="signupForm">
+        <label for="FName">Username</label><br>
+        <input type="text" id="FName" name="FName" required><br>
+        <label for="Mnum">Mobile number</label><br>
+        <input type="text" id="Mnum" name="Mnum" required><br>
+        <label for="Gender">Gender</label>
+        <br>
+        <select id="Gender" name="Gender" required>
+            <option value="Male">Male</option>
+            <option value="female">Female</option>
+        </select><br>
+        <label for="birthday">Date of Birth</label><br>
+        <input type="date" id="birthday" name="birthday" required><br>
+        <label for="email">Email ID</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="Password">Password:</label><br>
+        <input type="password" id="password" name="Password" required><br>
+        <input type="checkbox" id="agree" name="agree" required>
+        <label id="checkbox" for="agree">I agree with the privacy policy.</label><br>
+        <button id="button1" class="button" style="left: 30%; position:relative;">Register</button>
+
+
+    </form>
+</div>
+</div>
+</body>
+</html>

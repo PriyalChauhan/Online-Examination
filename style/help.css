@@ -1,0 +1,47 @@
+html,body,section{height:100%}
+/* Help Section */
+
+.help_container {
+    height: 100%;
+    position: relative;
+    margin-top:50px;
+    width: 220px;
+    background-color:#dcdcdc6e;
+}
+
+.ul-list{
+    list-style: none;
+    background-color: #DCDCDC;
+    padding: 0;
+   
+}
+
+section li{
+    background-color: #6B5B95;
+    line-height: 30px;
+    font-size:18px;
+    border-bottom: 3px solid cornsilk;
+    font-family: 'monospace';
+    padding-left: 20px;
+    
+   
+}
+section li:hover{
+    background-color: darkred;
+    filter: grayscale(0%) opacity(1);
+}
+    
+section li a{
+    text-decoration: none;
+    color: white;
+  
+
+}
+
+section li a:hover{
+    color:#FDAC53;
+}
+
+footer{
+    margin-top: 0;
+}

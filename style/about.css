@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    background-color: rgb(155, 151, 151);
+    height: 250px;
+    font-size: 17px;
+  
+}
+
+.hang{
+     transform: rotate(60deg);
+     position:absolute;
+     margin-left:636px;
+     margin-top:-65px;
+     text-decoration: line-through; 
+     color:black;
+     animation: hanging 2s ;
+}
+
+@keyframes hanging{
+  0% { 
+    transform: rotate(10deg);
+  }
+  50% {
+   transform: rotate(-20deg);
+  }
+  70% {
+    transform: rotate(0deg);
+  }
+  80%{
+      transform: rotate(60deg);
+  }
+  90%{
+      transform: rotate(40deg);
+  }
+  100% {
+    transform: rotate(60deg);}
+}
+
+.hang:hover{
+    animation: hanging 2s ease-in-out .5s infinite alternate;
+
+}
+.about {
+    padding-top: 50px;
+    float: center;
+
+}
+  
+.card {
+    width: 20em;
+    text-align: center;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0 0 25px 25px;
+    padding: 0 0 15px 0;
+    font-family: cursive;
+    font-weight: bold ;
+    box-shadow: 0 3px 5px 0 #40E0D0;
+}
+
+img {
+    height: auto;
+    width: 15em;
+    border-radius: 0 0 25px 25px;
+    
+}
+
+button{
+    width: 85%;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkslategray;
+    background-color:;
+    border: 10px ;
+    box-shadow: 0 3px 5px 0 #40E0D0;
+    padding: 10px 1;
+   
+}
+
+button:hover span{display: none;}
+button:hover:after{content:"priyal.chauhan34@gmail.com" ;font-size:17px;}
+
